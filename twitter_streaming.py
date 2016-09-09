@@ -35,8 +35,8 @@ posifaces = [u"\U0001F601", u"\U0001F602", u",\U0001F603",u"\U0001F604",\
              u"\U0001F60B",u"\U0001F60C"]
 negafaces = [u"\U0001F621",u"\U0001F622",u"\U0001F623",u"\U0001F624",\
              u"\U0001F62D","anger","angry"]
-#emotions = posifaces + negafaces
-emotions = negafaces
+emotions = posifaces + negafaces
+#emotions = negafaces
 if __name__ == '__main__':
 
     #This handles Twitter authetification and the connection to Twitter Streaming API
